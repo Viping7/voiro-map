@@ -1,0 +1,32 @@
+agm-map {
+    height: 100%;
+  }
+h1{
+    font-size: 30px;
+    font-weight: 200;
+}  
+label{
+    font-weight: 200;
+}
+.form-control{
+    height: 40px;
+    border-radius: 2px;
+    color: rgba(0,0,0,0.9);
+    &:focus{
+        border-color: #1ddaa3;
+        box-shadow: none;
+
+    }
+}
+.map-container{
+    height: 400px;
+    position: relative;
+    .loading{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.4);
+    }
+}
